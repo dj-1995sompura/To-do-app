@@ -1,0 +1,63 @@
+section.page-width {
+    max-width: 500px;
+    margin: auto;
+}
+
+.App {
+    width: 100%;
+    height: 120vh;
+    background: #8a2be2;
+    overflow: auto;
+}
+
+.App * {
+    padding: 0;
+    margin: 0;
+}
+
+h1.title {
+    text-transform: uppercase;
+    font-size: 41px;
+    color: white;
+    font-size: 60px;
+    margin: 0 20px;
+}
+
+input#inputData {
+    /* min-width: 300px; */
+    /* padding: 10px 15px; */
+    /* border-radius: 10px; */
+    /* border: 0px solid transparent; */
+    /* font-size: 24px; */
+    /* margin-right: 10px; */
+    /* color: blueviolet; */
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 24px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+
+button.addButton {
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 7px;
+    border: 0;
+    color: blueviolet;
+}
+
+.outputArea {
+    min-height: 44vh;
+    border: 2px solid #fff;
+    margin: 20px 0;
+    border-radius: 0 0 99px 99px;
+}
+
+button.clearData {
+    padding: 10px 15px;
+    border: 0px;
+    border-radius: 7px;
+    font-size: 24px;
+}
